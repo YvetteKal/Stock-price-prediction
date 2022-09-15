@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+
+{% block content %}
+
+        <div>
+            <h3 class="important">The predicted value is {{ prediction }}</h3>
+        </div>
+
+{% endblock %}
